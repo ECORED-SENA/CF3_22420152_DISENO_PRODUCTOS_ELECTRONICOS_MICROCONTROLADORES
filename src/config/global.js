@@ -94,31 +94,121 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'LED',
+      referencia:
+        'Mentalidad De Ingeniería. (2023). Cómo Funcionan los LED - Descubre los Misterios de Cómo Funcionan los LED. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=PugXcHWBt_M&ab_channel=MentalidadDeIngenier%C3%ADa',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'LED',
+      referencia:
+        'Sanchis, E., y  Ejea, J. B. (2008). B.5. El diodo de emisión de luz (LED). Universidad de Valencia.',
+      tipo: 'Documento',
+      link: 'https://www.uv.es/=esanchis/cef/pdf/Temas/B_T3.pdf',
+    },
+    {
+      tema: '<i>Display</i>',
+      referencia:
+        'Androbot TECH. (2021). EL DISPLAY LED - Electronica Digital. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=e67cMsP9IWU&ab_channel=AndrobotTECH',
+    },
+    {
+      tema: '<i>Display</i>',
+      referencia:
+        'Electronica y comunicaciones. (2022).DISPLAY 7 SEGMENTOS ANODO COMÚN. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=EsJ3JrlcEQ4&ab_channel=Electronicaycomunicaciones',
+    },
+    {
+      tema: '<i>Display</i>',
+      referencia:
+        'codigoelectronica (2020). Display 7 segmentos cátodo común. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=4na0IsW_0Fo&ab_channel=codigoelectronica',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Ánodo común',
+      significado:
+        'tipo de conexión en <i>displays</i> donde todos los ánodos se conectan a un potencial positivo.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Cátodo común',
+      significado:
+        'tipo de conexión en <i>displays</i> donde todos los cátodos se conectan a un potencial negativo',
+    },
+    {
+      termino: 'Diodo Emisor de Luz',
+      significado:
+        'otro nombre para el LED, que destaca su capacidad de emitir luz.',
+    },
+    {
+      termino: '<i>Display</i> alfanumérico',
+      significado:
+        'tipo de <i>display</i> capaz de mostrar caracteres y símbolos más complejos mediante segmentos adicionales.',
+    },
+    {
+      termino: '<i>Display</i> de 7 segmentos:',
+      significado:
+        'dispositivo que utiliza siete segmentos iluminados para representar dígitos y letras simples.',
+    },
+    {
+      termino: 'GaAsP',
+      significado:
+        'arseniuro de galio y fósforo, empleado en LED de colores específicos como rojo y amarillo.',
+    },
+    {
+      termino: 'GaP',
+      significado:
+        'fosfuro de galio, material utilizado en algunos LED, especialmente en los de color rojo.',
+    },
+    {
+      termino: 'LED',
+      significado:
+        'dispositivo semiconductor que emite luz cuando recibe una corriente eléctrica.',
+    },
+    {
+      termino: 'Matriz de LED',
+      significado:
+        'conjunto de LED dispuestos en una cuadrícula, controlados individualmente para formar imágenes o textos.',
+    },
+    {
+      termino: 'Unión PN',
+      significado:
+        'estructura en los semiconductores que permite el flujo de corriente en una sola dirección.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Boylestad, R. L., & Nashelsky, L. (2013). Electronic Devices and Circuit Theory (11th ed.). Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kasap, S. O. (2017). Principles of Electronic Materials and Devices (4th ed.). McGraw-Hill Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Forrest, S. R. (2013). "The path to ubiquitous and low-cost organic electronic appliances on plastic." Nature, 428(6986), 911-918.',
+      link: '',
+    },
+    {
+      referencia:
+        'Rashid, M. H. (2004). Power Electronics: Circuits, Devices, and Applications (3rd ed.). Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Wolfe, C. M., & Holonyak, N. (1999). Physical Properties of Semiconductors. Prentice Hall.',
       link: '',
     },
   ],
@@ -142,8 +232,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Hivo Alfonso Patarroyo Pulido',
+          cargo: 'Experto temático',
+          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -152,35 +247,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
