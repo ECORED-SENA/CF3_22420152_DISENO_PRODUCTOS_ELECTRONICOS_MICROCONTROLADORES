@@ -232,12 +232,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Hivo Alfonso Patarroyo Pulido',
+          nombre: '',
           cargo: 'Experto temático',
           centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
         },
         {
-          nombre: 'Paola Alexandra Moya Peralta',
+          nombre: '',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -247,7 +247,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Blanca Flor Tinoco Torres',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
