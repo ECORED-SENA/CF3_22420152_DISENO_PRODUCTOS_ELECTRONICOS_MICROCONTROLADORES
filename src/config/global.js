@@ -232,12 +232,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: 'Experto temático',
-          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
-        },
-        {
-          nombre: '',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
