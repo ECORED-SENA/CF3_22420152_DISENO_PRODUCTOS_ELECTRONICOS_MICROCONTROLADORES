@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Manejo de salidas: LED y Display',
+    componenteFormativo: 'Manejo de salidas: LED y <i>Display</i>',
     descripcionCurso:
       'El componente formativo aborda el funcionamiento y aplicaciones de LED y <i>displays</i>. Los LED, semiconductores que emiten luz en diversos colores según el material, se usan en indicadores y señalización. Los <i>displays</i>, que presentan información en dígitos y símbolos, operan encendiendo segmentos de luz. Ambos dispositivos son fundamentales en tecnologías de visualización en electrónica y comunicación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -155,7 +155,7 @@ export default {
         'tipo de <i>display</i> capaz de mostrar caracteres y símbolos más complejos mediante segmentos adicionales.',
     },
     {
-      termino: '<i>Display</i> de 7 segmentos:',
+      termino: '<i>Display</i> de 7 segmentos',
       significado:
         'dispositivo que utiliza siete segmentos iluminados para representar dígitos y letras simples.',
     },
@@ -266,11 +266,11 @@ export default {
         //  cargo: 'Validador y vinculador de recursos educativos digitales',
         //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
         //},
-        //{
-        //  nombre: 'Jaime Hernán Tejada Llano',
-        //  cargo: 'Validador y vinculador de recursos educativos digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
